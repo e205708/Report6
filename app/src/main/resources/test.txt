@@ -1,0 +1,5 @@
+apple:りんご
+english:英語
+name:名前
+funny:楽しい
+smart:かしこい

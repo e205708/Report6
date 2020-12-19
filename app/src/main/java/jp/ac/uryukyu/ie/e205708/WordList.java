@@ -29,4 +29,28 @@ public class WordList {
             System.out.println("例外が発生しました" + e.getMessage());
         } 
     }
+
+    public void studyWords(){
+        System.out.println("スタート\n\n");
+
+        for(Word wd : wordList){
+            wd.callFront();
+            waitMoment(5000);
+            wd.callBack();
+            System.out.println("--------------------");
+            waitMoment(3000);
+            
+        }
+
+        System.out.println("お疲れ様でした！");
+    }
+
+    //prog_exe2で書かれてたものをそのまま持ってきてます。
+    public void waitMoment(int time){
+        try{
+            Thread.sleep(time);
+        }catch(InterruptedException e){
+            System.out.println( e.getMessage() );
+        }
+    }
 }

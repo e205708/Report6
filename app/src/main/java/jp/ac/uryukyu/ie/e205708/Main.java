@@ -5,5 +5,8 @@ public class Main {
         WordList wl1 = new WordList("test.txt");
         wl1.makeWordList();
         wl1.studyWords();
+        WordList wl2 = new WordList("number1.txt");
+        wl2.makeWordList();
+        wl2.studyWords();
     }
 }

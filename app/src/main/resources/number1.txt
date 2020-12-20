@@ -1,0 +1,3 @@
+number:数
+resouces:資源
+main:主な

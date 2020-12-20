@@ -41,4 +41,20 @@ public class Word {
     public void callBack(){
         System.out.println(this.back);
     }
+
+    /**
+     * getter of String front
+     * @return front
+     */
+    public String getFront(){
+        return this.front;
+    }
+
+    /**
+     * getter of String back
+     * @return back
+     */
+    public String getBack(){
+        return this.back;
+    }
 }
